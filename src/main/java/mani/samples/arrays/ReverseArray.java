@@ -30,10 +30,10 @@ public class ReverseArray {
     }
 
     void printArray(){
-        for (int a = 0; a < arr.length; a++) {
-            System.out.println(arr[a]);
+        for (int i : arr) {
+            System.out.println(i);
         }
-        System.out.println();
+
     }
 
     private void swapPos(int a, int b){
