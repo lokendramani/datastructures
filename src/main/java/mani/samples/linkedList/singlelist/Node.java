@@ -1,11 +1,11 @@
 package mani.samples.linkedList.singlelist;
 
 public class Node {
-    int data;
+    int value;
     Node next;
 
-    public Node(int data) {
-        this.data = data;
+    public Node(int value) {
+        this.value = value;
         next = null;
     }
 
